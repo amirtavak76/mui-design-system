@@ -1,8 +1,9 @@
 import {FunctionComponent} from 'react';
-import { ButtonProps } from './Button.types.ts';
+import { RxButtonProps } from './Button.types.ts';
+import {Button} from '@mui/material';
 
-const Button: FunctionComponent<ButtonProps> = ({ children }) => {
-	return <button>{children}</button>
+const RxButton: FunctionComponent<RxButtonProps> = ({ children, ...props }) => {
+	return <Button {...props}>{children}</Button>
 }
 
-export default Button;
+export default RxButton;

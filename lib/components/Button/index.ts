@@ -1,3 +1,3 @@
-export { default as Button } from './Button';
+export { default as RxButton } from './Button';
 
-export type { ButtonProps } from './Button.types.ts';
+export type { RxButtonProps } from './Button.types.ts';
